@@ -108,7 +108,7 @@ class MessageConnection(object):
         `publish` is used to publish client-connection messages to other
         connections.
         """
-        self.log('debug', u'PUB: {0}'.format(msg.decode('utf-8')))
+        self.log('debug', u'PUB: {0}'.format(msg))
         self.pubsub.send(msg)
 
     def send(self, msg):
