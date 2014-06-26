@@ -108,14 +108,14 @@ class MessageConnection(object):
         `publish` is used to publish client-connection messages to other
         connections.
         """
-        self.log('debug', u'PUB: {0}'.format(msg))
+        self.log('debug', u'PUB: {0}'.format(msg.decode('utf-8')))
         self.pubsub.send(msg)
 
     def send(self, msg):
         """
         `send` is used to deliver messages and command responses to client/browser.
         """
-        self.log('debug', u'OUT: {0}'.format(msg))
+        self.log('debug', u'OUT: {0}'.format(msg.decode('utf-8')))
         return super(MessageConnection, self).send(msg)
 
     def respond_command(self, command, success, payload=None):
