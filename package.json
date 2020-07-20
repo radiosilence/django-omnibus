@@ -35,7 +35,7 @@
     "grunt-template-jasmine-requirejs": "git://github.com/schorfES/grunt-template-jasmine-requirejs.git",
     "grunt-template-jasmine-istanbul": "~0.2.5",
     "grunt-contrib-requirejs": "~0.4.1",
-    "grunt-contrib-jasmine": "~0.5.2",
+    "grunt-contrib-jasmine": "~2.2.0",
     "grunt-contrib-jshint": "~0.7.2",
     "grunt-contrib-uglify": "~0.2.7",
     "grunt-contrib-clean": "~0.5.0",
