@@ -31,7 +31,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "~0.4.2",
+    "grunt": "~1.2.1",
     "grunt-template-jasmine-requirejs": "git://github.com/schorfES/grunt-template-jasmine-requirejs.git",
     "grunt-template-jasmine-istanbul": "~0.2.5",
     "grunt-contrib-requirejs": "~0.4.1",
